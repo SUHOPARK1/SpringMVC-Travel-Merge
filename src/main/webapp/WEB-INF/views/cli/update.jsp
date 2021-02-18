@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <script src="/gwland/resources/cli/js/client.js"></script>
+<center>
 <title>고객정보 입력창</title>
 <body>
 <form id="ClientUpdateForm" name="ClientUpdateForm" onsubmit="ClientUpdatecheck()">
@@ -57,6 +58,7 @@
  <input type="submit" id="update-btn" value="수정하기"/>
 </p>
 </form>
+</center>
 
 <script>
 	client.update()
